@@ -8,7 +8,7 @@ This is simple APP to generate and scan the QR code.
         implementation 'com.google.zxing:core:3.3.2'
         implementation 'com.journeyapps:zxing-android-embedded:3.6.0@aar'
 
-2. Create file an button to call scanNow() function to initiate the Camera for scanning purpose.
+2. Create file an button to call **scanNow()** function to initiate the Camera for scanning purpose.
 
         /**this function call the above library to initiate the camera to scan the QRCode**/
        
@@ -25,7 +25,7 @@ This is simple APP to generate and scan the QR code.
         integrator.initiateScan();
     }
 
-        /**After scanning process Override the onActivityResult() function in class to get the result**/
+        /**After scanning process Override the **onActivityResult()** function in class to get the result**/
    
          @Override
         protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -42,7 +42,7 @@ This is simple APP to generate and scan the QR code.
         }
     }
 
-3. Create file an button to call the generateQRCode function to start activity.
+3. Create file an button to call the **generateQRCode()** function to start activity.
 
         /**userInput = get the text **/
   
@@ -58,7 +58,7 @@ This is simple APP to generate and scan the QR code.
         }
     }
 
-4.  Create CaptureActivityPotrait.class and jsut copy paste all the code.
+4.  Create **CaptureActivityPotrait.class** and just copy paste all the code.
     
         public class CaptureActivityPotrait extends Activity {
         private CaptureManager capture;
@@ -121,7 +121,7 @@ This is simple APP to generate and scan the QR code.
         }
 
 
-5. Create activity_qrcode XML layout and jsut copy paste all the code.
+5. Create **activity_qrcode** XML layout and jsut copy paste all the code.
 
          <?xml version="1.0" encoding="UTF-8"?>
     <!--
