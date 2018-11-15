@@ -45,7 +45,7 @@ This is simple APP to generate and scan the QR code.
 
 /**userInput = get the text **/
   
-   private void generateQrCode() {
+      private void generateQrCode() {
         MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
         try {
             BitMatrix bitMatrix = multiFormatWriter.encode(userInput, BarcodeFormat.QR_CODE, 200, 200);
