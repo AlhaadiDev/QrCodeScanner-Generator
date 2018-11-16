@@ -164,7 +164,7 @@ This is simple APP to generate and scan the QR code.
 
 
 1. Main Page layout
-<img src="app\src\main\res\drawable\mainpage.png"/>
+<img src="app\src\main\res\drawable\mainPage.png"/>
 
 2. Scan QR Page layout
 <img src="app\src\main\res\drawable\scanqr.png"/>
